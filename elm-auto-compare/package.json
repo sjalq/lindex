@@ -1,0 +1,25 @@
+{
+  "name": "elm-auto-compare",
+  "version": "1.0.0",
+  "description": "Generate comparison functions for Elm types following F# sorting rules",
+  "bin": {
+    "elm-auto-compare": "./elm-auto-compare"
+  },
+  "scripts": {
+    "build": "cd script && elm-pages bundle-script src/GenerateComparisons.elm"
+  },
+  "keywords": [
+    "elm",
+    "comparison",
+    "code-generation",
+    "elm-pages"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "elm-pages": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

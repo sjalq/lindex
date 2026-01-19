@@ -1,0 +1,19 @@
+{
+    "type": "package",
+    "name": "your-username/elm-auto-compare",
+    "summary": "elm-review rule to generate comparison functions following F# sorting rules",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "AutoCompare.GenerateComparison"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.2 <= v < 2.0.0",
+        "elm/json": "1.1.3 <= v < 2.0.0",
+        "elm/project-metadata-utils": "1.0.2 <= v < 2.0.0",
+        "jfmengels/elm-review": "2.13.0 <= v < 3.0.0",
+        "stil4m/elm-syntax": "7.3.0 <= v < 8.0.0"
+    },
+    "test-dependencies": {}
+}

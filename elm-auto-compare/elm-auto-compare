@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+// This file will be replaced by the bundled elm-pages script
+// For now, run the elm-pages script directly
+
+const { execSync } = require('child_process');
+const path = require('path');
+
+const scriptPath = path.join(__dirname, 'script', 'src', 'GenerateComparisons.elm');
+const args = process.argv.slice(2).join(' ');
+
+try {
+  execSync(`npx elm-pages run ${scriptPath} ${args}`, { stdio: 'inherit' });
+} catch (error) {
+  process.exit(1);
+}
